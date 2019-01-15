@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>跟随王老师重过2018，这一次，你会怎么样？</title>
+    <script>var ratio;</script>
+    <script src="resize.min.js"></script>
+    <link rel="stylesheet" href="style.min.css">
+    <script type="text/javascript">
+        /*微信分享数据*/
+        window.shareData = {
+            "imgUrl": "images/share.jpg",/*微信分享显示的缩略图*/
+            "timeLineLink": "http://zj.qq.com/zt2016/txdzwnzch/index.htm",
+            "tTitle": "重来一遍2016，你会过得怎么样？",/*微信分享的标题*/
+            "tContent": "2016年即将结束，假如给你再来一次的机会，你会遇到什么？"/*微信分享的摘要文字*/
+        };
+    </script>
+</head>
+
+<body>
+<div class="abs container">
+    <div class="abs load"></div>
+    <div class="abs audio on" id="audio">
+
+    </div>
+    <!--首页-->
+    <div class="abs page page1 ">
+        <!--左上文字-->
+        <div class="abs con">
+            <!--首页的公司logo-->
+            <img src="images/logo.png" class="abs logo" alt="">
+            
+            <!--文字1“跟随王老师”-->
+            <img src="images/slide1_text1.png" class="abs text1" alt="">
+                
+            <div class="abs numCon">
+                <!--2016外部的标点“”-->
+                <img src="images/wordCon.png" class="abs layer" alt="">
+                <!--文字2“重过2018“-->
+                <img src="images/slide1_text2.png" class="abs text2" alt="">
+            </div>
+            <!--文字3“你会“-->
+            <img src="images/slide1_text3.png" class="abs text3" alt="">
+            <!--文字4“如何“-->
+            <img src="images/slide1_text4.png" class="abs text4" alt="">
+        </div>
+        <!--右下小电视相关-->
+        <div class="abs tvCon">
+            <!--右侧小电视-->
+            <img src="images/tvCon.png" class="layer" alt="">
+            <!--右侧小电视底部阴影-->
+            <img src="images/user_shadow.png" class="abs shadow" alt="">
+            <!--右侧小电视左上三条黄色-->
+            <img src="images/tv_light.png" class="abs light" alt="">
+            <div class="abs tv">
+            </div>
+        </div>
+        <!--左下人物-->
+        <div class="abs user">
+            <!--左下人物-->
+            <img src="images/page1_user.png" class="layer" alt="">
+            <!--左下人物底部阴影-->
+            <img src="images/user_shadow.png" class="abs shadow" alt="">
+            <!--按钮-->
+            <div class="abs control">
+                <!--遥控器-->
+                <img src="images/tv_control.png" class="layer" alt="">
+         
+                <!--点击穿越文字-->
+                <img src="images/page1_text1.png" class="abs text" alt="">
+                <!--点击穿越箭头-->
+                <img src="images/page1_arrow.png" class="abs arrow" alt="">
+            </div>
+
+        </div>
+
+    </div>
+    <!--跌落页-->
+    <div class="abs page page2 ">
+        <div class="abs user">
+            <!--跌落的人物-->
+            <img data-src="images/user_down.png" class="layer lazy" alt="">
+            <!--遥控器-->
+            <img data-src="images/tv_control.png" class="abs control lazy" alt="">
+        </div>
+        <div class="abs line line1"></div>
+        <div class="abs line line2"></div>
+        <div class="abs line line3"></div>
+        <div class="abs line line4"></div>
+        <!--跌落进的洞-->
+        <img data-src="images/hole.png" class="abs hole lazy" alt="">
+        <!--合上的洞-->
+        <img data-src="images/hole_cover.png" class="abs holeCover lazy" alt="">
+    </div>
+    
+    <!--游戏页-->
+    <div class="abs page page3 " id="game">
+        <div class="abs infoCon">
+            <div class="abs infoBox">
+                <!--显示提示用的黄色背景版-->
+                <img data-src="images/alertInfo_bg.png" class="layer lazy" alt="">
+                <!--显示的提示-->
+                <div class="abs text" id="text">
+                    <h1>前哨创新现场</h1>
+                    <p>恭喜，前进1步。1月份参加前哨创新现场，创新值又增加了呢。</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <!--结果页-->
+    <div class="abs page page4 ">
+        <div class="abs resultCon">
+            <!--结果展示称号背景图-->
+            <img data-src="images/resultCon.png" class="layer lazy" alt="">
+            <div class="abs people"></div>
+            <!--结果展示的称号-->
+            <p class="abs name" id="name">无敌创新星</p>
+            <!--结果展示的文字说明-->
+            <div class="abs desc">
+                <h1 id="desc">你的创新值好得不行，冲刺总是排第一！</h1>
+                <p id="reason">（前进次数大于6次）</p>
+            </div>
+            <div class="abs rain"></div>
+        </div>
+        
+        <div class="abs btnGroup">
+            <!--再玩一次-->
+            <img data-src="images/more.png" class="layer lazy" id="more" alt="">
+            <!--我要分享-->
+            <img data-src="images/share.png" class="layer lazy" id="share" alt="">
+        </div>
+        <!--结果页底部的公司名称-->
+        <p class="abs product" style="font-size: 0.14rem">创新地图出品</p>
+        
+        <!--点击我要分享后出现的页面-->
+        <div class="abs shareCon">
+            <div class="abs con">
+                <!--包被子的人物图-->
+                <img data-src="images/share_user.png" class="layer lazy" alt="">
+                <!--包被子的人物的手指图，可动-->
+                <img data-src="images/hand.png" class="abs hand lazy" alt="">
+                <!--点击右上角可转发的文字图，白色，透明背景-->
+                <img data-src="share_text.png" class="abs text lazy" alt="">
+                <!--转发的箭头-->
+                <img data-src="images/share_arrow.png" class="abs arrow lazy" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/pace.min.js"></script>
+<script src="js/zeptoAll.min.js"></script>
+<script src="js/data.min.js" charset="utf-8"></script>
+<script src="js/script.min.js" charset="utf-8"></script>
+<script language="javascript">
+    function onShareComplete(res) {
+        //window.location.href='';
+    }
+    document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+        WeixinJSBridge.on('menu:share:appmessage', function(argv) {
+            WeixinJSBridge.invoke('sendAppMessage', {
+                "img_url": window.shareData.imgUrl,
+                "link": window.shareData.timeLineLink,
+                "desc": window.shareData.tContent,
+                "title": window.shareData.tTitle
+            }, onShareComplete);
+        });
+        WeixinJSBridge.on('menu:share:timeline', function(argv) {
+            WeixinJSBridge.invoke('shareTimeline', {
+                "img_url": window.shareData.imgUrl,
+                "img_width": "300",
+                "img_height": "300",
+                "link": window.shareData.timeLineLink,
+                "desc": window.shareData.tContent,
+                "title": window.shareData.tTitle
+            }, onShareComplete);
+        });
+    }, false);
+    if(window.TencentNews && window.TencentNews.setShareArticleInfo){
+        window.TencentNews.setShareArticleInfo(
+                window.shareData.tTitle,
+                window.shareData.tContent,
+                window.shareData.timeLineLink,
+                window.shareData.imgUrl
+        );
+    }
+</script>
+</body>
+</html>
